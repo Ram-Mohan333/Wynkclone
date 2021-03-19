@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    background-image: linear-gradient(to right, rgb(191, 232, 240), rgb(0,102,204));
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+.english{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-top: 100px;
+}
+.hindi{
+    width: 500px;
+    height: 500px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.telugu{
+    width: 500px;
+    height: 500px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.others{
+    width: 500px;
+    height: 500px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.img{
+    width: 500px;
+    height: 500px;
+}
+.list{
+    position: relative;
+    list-style: none;
+    border: 2px solid rgb(0,102,204);
+    background-color: rgb(0,102,204);
+    padding: 8px;
+    text-align: center;
+    margin-bottom: 25px;
+    border-radius: 25px;
+}
+.link{
+    position: relative;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.lang{
+    position: fixed;
+    margin-top: 150px;
+    margin-left: 50px;
+    z-index: 1;
+}
+.bsong{
+    list-style: none;
+}
+.song{
+    text-decoration: none;
+    color: rgb(0,102,204);
+}
+.drop{
+    display: none;
+    background-color: rgb(191, 232, 240);
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-radius: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.list:hover .drop {
+    display: block;
+}
+.bsong a:hover{
+    background-color: white;
+}
+#container{
+    width: 504px;
+    height: 3112px;
+}
+#container div{     
+    width: 500px;
+    height: 500px;
+    margin-left: 400px;
+    border: 2px solid rgb(0,102,204);
+    border-radius: 30px;
+    margin-bottom: 200px;
+    background-color: rgb(0,102,204);
+}
+.english::-webkit-scrollbar{
+    display: none;
+}
+.hindi::-webkit-scrollbar{
+    display: none;
+}
+.telugu::-webkit-scrollbar{
+    display: none;
+}
+.others::-webkit-scrollbar{
+    display: none;
+}
+.link:hover{
+    background-color: rgb(191, 232, 240);
+    color: blue;
+}
+.list:hover{
+    box-shadow: 2px 2px 5px gray, 5px 5px 2px black;
+}
+.menu{
+    float: left;
+    
+    }
+    .title{
+     position: relative;
+     font-size: 40px;
+     text-align: center;
+     float: right;
+     padding-left: 450px;
+     padding-top: 0;
+     color: whitesmoke;
+     font-family: cursive;
+    }
+    .logo{
+        height: 100px;
+        width: 100px;
+        border-radius: 60%;
+        float: left;
+        margin-left: 25px;
+        padding-bottom: 5px;
+        padding-top: 25 px;
+    }
+    .search{
+        background-color: whitesmoke;
+        border: none;
+        margin-top: 8px;
+        padding-left: 2px;
+        color: rgb(0,102,204);
+        outline: none;
+        border-radius: 5px;
+        width: 200px;
+    }
+    .icon{
+        border: 5px solid rgb(191, 232, 240);
+        border-radius: 50%;
+        margin-top: 8px;
+        color: whitesmoke;
+        margin-left: 400px;
+    }
+    .sdiv{
+        padding-top: 30px;
+        float: left;
+        
+    }
+    .a3{
+        position: fixed;
+        z-index: 1;
+    }
+    .cont{
+        background-image: linear-gradient(to right, rgb(234, 175, 250), rgb(58, 2, 70));
+    }
+    .sm{
+        padding-left: 50px;
+        padding-bottom: 10px;
+    }
+    .lsm{
+        text-decoration: none;
+        color: black;
+    }
+    .lsm:hover{
+        color: blue;
+    }
+    
+    .pic{
+        float: right;
+        border: 20px indigo;
+        border-radius: 200%;
+    }
